@@ -47,9 +47,9 @@ You can use the Bot Framework SDK to create a bot based on a template, and then 
 **C#**
 
 ```C#
-dotnet new -i Microsoft.Bot.Framework.CSharp.EchoBot
-dotnet new -i Microsoft.Bot.Framework.CSharp.CoreBot
-dotnet new -i Microsoft.Bot.Framework.CSharp.EmptyBot
+dotnet new echobot  -o EchoBot
+dotnet new corebot  -o CoreBot
+dotnet new emptybot -o EmptyBot
 ```
 
 **Python**
